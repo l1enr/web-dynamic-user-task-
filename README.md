@@ -33,7 +33,7 @@ CREATE TABLE user (
   status TINYINT(1) DEFAULT 0,
   PRIMARY KEY (`id`)
 \ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;)
-
+```
 
 
 How It Works
