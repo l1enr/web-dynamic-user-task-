@@ -32,7 +32,9 @@ CREATE TABLE user (
   age INT(11) NOT NULL,
   status TINYINT(1) DEFAULT 0,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+\ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;)
+
+
 
 How It Works
 1. Initial Load: When ⁠index.html⁠ loads, a JavaScript ⁠fetch()⁠ request calls ⁠list.php⁠ to fetch all current records from the database and populate the table.
