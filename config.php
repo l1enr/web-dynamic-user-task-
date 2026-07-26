@@ -6,7 +6,7 @@
 
 $servername = "sql204.infinityfree.com";
 $username   = "if0_42491656";
-$password   = "zZZKqP1nqO";
+$password   = "Your_password";
 $dbname     = "if0_42491656_db_task";
 
 // Create connection
